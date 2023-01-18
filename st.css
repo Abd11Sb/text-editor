@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{/*هي مشان ساوي بالنص*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(0deg, rgba(75, 180, 67, 0.8), rgba(22, 13, 13, 0.8));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 60px;
+}
+input{
+    outline: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;/*هي مشان تفصل المربعين عن بعض*/
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.button{
+    font-family: sons-sefral;
+    text-transform: uppercase;
+    outline: 0;
+    background-image:linear-gradient(0deg, rgba(59, 85, 57, 0.8), rgba(22, 13, 13, 0.8));
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form-g{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    max-width: 360px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(22, 13, 13, 0.8), 0 5px 5px 0 rgba(22, 13, 13, 0.8);
+    border-radius: 40px;
+}
+.dd{
+    margin-bottom: 35px;
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 1px #3f373a;
+    padding: 0 5px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right,#3c5341,#2b2427);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.link{
+    color: #252525;
+    margin-bottom: 15px;
+}
